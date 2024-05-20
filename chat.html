@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat en Vivo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Chat en Vivo</h1>
+    </header>
+    <div class="container chat-container">
+        <div class="chat-body" id="chatBody">
+            <!-- Chat messages will appear here -->
+            <div class="message bot">
+                <p>Hola, ¿en qué puedo ayudarte hoy?</p>
+            </div>
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="chatInput" class="form-control" placeholder="Escribe tu mensaje...">
+            <button class="btn" onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+    <script src="js/chat.js"></script>
+</body>
+</html>
